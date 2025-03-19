@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'phalmora_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Phalmora_DB',
+        'NAME': 'phalmora_db',
         'USER': 'postgres',
         'PASSWORD': '123456',
         'HOST': 'localhost',
